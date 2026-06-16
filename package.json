@@ -1,6 +1,6 @@
 {
   "name": "fable5-skills",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "AI reasoning skills distilled from 4,665 real Claude Fable 5 chain-of-thought traces. Mathematically tuned. Grade A 100% emulation accuracy against MiniMax M3.",
   "type": "module",
   "main": "bin/fable5-skills.js",

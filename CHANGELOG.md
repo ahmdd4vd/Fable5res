@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] — 2026-06-16
+
+### Added
+- **YAML frontmatter** added to all 5 `SKILL.md` files (`name` + `description` fields), making
+  the skills discoverable by the [`skills` CLI](https://github.com/vercel-labs/skills) and
+  indexable by the [skills.sh](https://skills.sh) open agent skills marketplace.
+- New README section "Install via skills.sh" with `npx skills add ahmdd4vd/Fable5res` examples
+  for installing individual skills into 70+ supported coding agents.
+- New skills.sh badge in the README hero header.
+- All 5 Fable 5 skills are now also installable via:
+  ```bash
+  npx skills add ahmdd4vd/Fable5res --skill fable-debug -a claude-code -a cursor
+  npx skills add ahmdd4vd/Fable5res --all
+  ```
+
+### Compatibility
+- Skills now compatible with the [Agent Skills specification](https://agentskills.io) used by
+  the `skills` CLI (vercel-labs/skills, 22k+ stars).
+- Skills can be installed into 70+ coding agents via the `skills` CLI:
+  Claude Code, Cursor, Cline, Codex, Windsurf, Continue, Gemini CLI, GitHub Copilot,
+  OpenCode, Roo Code, Goose, Amp, Replit, Trae, Kimi Code CLI, Qwen Code, and many more.
+
+### Verified (unchanged)
+- 31/31 quantified claims pass against source dataset (`data/VERIFICATION_REPORT.json`).
+- 100.00% MiniMax M3 emulation across 7 scenarios (`docs/GRADE_A_FINAL_REPORT.md`).
+
+---
+
 ## [1.1.0] — 2026-06-16
 
 ### Changed (breaking — license)

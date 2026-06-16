@@ -1,3 +1,8 @@
+---
+name: fable-architect
+description: Architect systems like Fable 5 — deep understanding before design, modular thinking, iterative refinement. Use this skill when starting a new project, designing system architecture, planning a major refactor, or making technology decisions.
+---
+
 # /fable-architect
 
 Architect systems like Fable 5 — deep understanding before design, modular thinking, iterative refinement.

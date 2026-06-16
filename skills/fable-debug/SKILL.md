@@ -1,3 +1,8 @@
+---
+name: fable-debug
+description: Debug like Fable 5 — systematic root cause analysis with natural reasoning flow. Use this skill when you encounter an error, unexpected behavior, failing tests, or anything that does not work as intended.
+---
+
 # /fable-debug
 
 Debug like Fable 5 — systematic root cause analysis with natural reasoning flow.

@@ -1,3 +1,8 @@
+---
+name: fable-verify
+description: Verify like Fable 5 — obsessive, systematic, evidence-based quality assurance woven into your reasoning. Use this skill when you have just written or modified code, need to confirm something works, are running tests, or need to validate output against requirements.
+---
+
 # /fable-verify
 
 Verify like Fable 5 — obsessive, systematic, evidence-based quality assurance woven into your reasoning.

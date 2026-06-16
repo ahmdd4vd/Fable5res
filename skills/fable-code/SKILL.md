@@ -1,3 +1,8 @@
+---
+name: fable-code
+description: Code like Fable 5 — methodical, verified, and deeply informed by context. Use this skill whenever you need to write, edit, or create code.
+---
+
 # /fable-code
 
 Code like Fable 5 — methodical, verified, and deeply informed by context.

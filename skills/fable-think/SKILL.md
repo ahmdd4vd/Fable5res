@@ -1,3 +1,8 @@
+---
+name: fable-think
+description: Think like Fable 5 — natural, flowing, purposeful reasoning distilled from 4,665 real chain-of-thought traces with mathematical precision. Use this skill EVERY TIME before writing code, making decisions, or taking action.
+---
+
 # /fable-think
 
 Think like Fable 5 — natural, flowing, purposeful reasoning distilled from 4,665 real chain-of-thought traces with mathematical precision.

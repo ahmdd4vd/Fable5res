@@ -8,6 +8,7 @@ Tuned to **Grade A · 100.00%** emulation accuracy against MiniMax M3 across 9 i
 
 [![npm version](https://img.shields.io/npm/v/fable5-skills.svg?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/fable5-skills)
 [![npm downloads](https://img.shields.io/npm/dt/fable5-skills.svg?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/fable5-skills)
+[![skills.sh](https://skills.sh/b/ahmdd4vd/Fable5res.svg?style=flat-square)](https://skills.sh/ahmdd4vd/Fable5res)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=flat-square&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/agpl-3.0)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Verified: 31/31](https://img.shields.io/badge/verified-31%2F31%20claims-brightgreen.svg?style=flat-square)](./data/VERIFICATION_REPORT.json)
@@ -56,6 +57,23 @@ npx fable5-skills init --agent=continue     # .continue/skills/
 npx fable5-skills init --agent=generic      # ./skills/
 npx fable5-skills init ./my-project         # install into a specific project
 ```
+
+### Install via skills.sh (open agent skills marketplace)
+
+This package is also indexed on [**skills.sh**](https://skills.sh/ahmdd4vd/Fable5res) — the open agent skills directory. If you use the [`skills` CLI](https://github.com/vercel-labs/skills), you can install any of the 5 Fable 5 skills into 70+ supported coding agents:
+
+```bash
+# List available skills
+npx skills add ahmdd4vd/Fable5res --list
+
+# Install a specific skill (e.g. fable-debug) into Claude Code + Cursor
+npx skills add ahmdd4vd/Fable5res --skill fable-debug -a claude-code -a cursor
+
+# Install all 5 skills into all detected agents
+npx skills add ahmdd4vd/Fable5res --all
+```
+
+The `skills` CLI auto-detects which coding agents you have installed (Claude Code, Cursor, Cline, Codex, Windsurf, Continue, Gemini CLI, GitHub Copilot, OpenCode, and 60+ more) and installs the `SKILL.md` files into the correct paths for each.
 
 ### Useful flags
 
