@@ -1,0 +1,283 @@
+{
+  "dataset": {
+    "total_traces": 4665,
+    "total_sessions": 60,
+    "total_turns": 4665,
+    "cot_present": 4665,
+    "cot_present_pct": 100.0
+  },
+  "cot_stats": {
+    "avg_len": 2669.4,
+    "median_len": 2365,
+    "stdev_len": 1251.33,
+    "min_len": 350,
+    "max_len": 9145
+  },
+  "completion_stats": {
+    "avg_len": 3754.92,
+    "median_len": 2726,
+    "min_len": 552,
+    "max_len": 73607
+  },
+  "per_step_coverage_pct": {
+    "ACKNOWLEDGE": 82.85,
+    "SCOPE": 85.27,
+    "GATHER": 14.77,
+    "PLAN": 42.79,
+    "EXECUTE": 29.05,
+    "VERIFY": 83.54,
+    "ITERATE": 89.07,
+    "ALL_7_PER_SESSION": 88.33
+  },
+  "step_combo_top10": [
+    [
+      "ACK+SCO+VER+ITR",
+      896
+    ],
+    [
+      "ACK+SCO+PLN+VER+ITR",
+      581
+    ],
+    [
+      "ACK+SCO+EXE+VER+ITR",
+      348
+    ],
+    [
+      "ACK+SCO+PLN+EXE+VER+ITR",
+      320
+    ],
+    [
+      "ACK+VER+ITR",
+      195
+    ],
+    [
+      "SCO+VER+ITR",
+      165
+    ],
+    [
+      "ACK+SCO+ITR",
+      130
+    ],
+    [
+      "ACK+SCO+GAT+VER+ITR",
+      127
+    ],
+    [
+      "ACK+SCO+VER",
+      122
+    ],
+    [
+      "SCO+PLN+VER+ITR",
+      120
+    ]
+  ],
+  "behavioral_signatures": {
+    "acknowledgment_turns": 3865,
+    "acknowledgment_pct": 82.85,
+    "scope_turns": 3978,
+    "scope_pct": 85.27,
+    "gather_turns": 689,
+    "gather_pct": 14.77,
+    "plan_turns": 1996,
+    "plan_pct": 42.79,
+    "execute_turns": 1355,
+    "execute_pct": 29.05,
+    "verify_turns": 3897,
+    "verify_pct": 83.54,
+    "iterate_turns": 4155,
+    "iterate_pct": 89.07,
+    "hypothesis_turns": 541,
+    "hypothesis_pct_of_error_turns": 17.66,
+    "hypothesis_pct_of_all_turns": 11.6,
+    "self_correct_turns": 347,
+    "self_correct_pct": 7.44,
+    "same_turn_fix_turns": 1147,
+    "same_turn_fix_pct_of_error_turns": 37.43
+  },
+  "debug_specific": {
+    "hypothesis_sessions": 52,
+    "hypothesis_sessions_pct": 86.67,
+    "same_turn_fix_sessions": 47,
+    "same_turn_fix_sessions_pct": 78.33,
+    "total_error_turns": 3064
+  },
+  "output_formatting_per_turn": {
+    "code_blocks_avg": 0.998,
+    "inline_code_avg": 14.63,
+    "bullet_lines_avg": 1.946,
+    "numbered_lines_avg": 1.561,
+    "table_rows_avg": 0.042,
+    "bold_avg": 1.565,
+    "italic_avg": 0.977,
+    "quote_avg": 0.008,
+    "headers_top": [
+      [
+        "## W",
+        31
+      ],
+      [
+        "## T",
+        16
+      ],
+      [
+        "## R",
+        11
+      ],
+      [
+        "## I",
+        10
+      ],
+      [
+        "## [",
+        8
+      ],
+      [
+        "## S",
+        7
+      ],
+      [
+        "## P",
+        5
+      ],
+      [
+        "## H",
+        5
+      ],
+      [
+        "### r",
+        4
+      ],
+      [
+        "### _",
+        4
+      ]
+    ]
+  },
+  "tool_usage": {
+    "counts": {
+      "bash": 1960,
+      "edit": 1144,
+      "read": 457,
+      "write": 400,
+      "powershell": 233,
+      "toolsearch": 73,
+      "websearch": 61,
+      "webfetch": 54,
+      "mcp__claude_preview__preview_eval": 35,
+      "taskcreate": 23,
+      "taskupdate": 21,
+      "glob": 20,
+      "skill": 16,
+      "schedulewakeup": 15,
+      "monitor": 11,
+      "taskstop": 9,
+      "mcp__claude_preview__preview_start": 7,
+      "mcp__claude_preview__preview_screenshot": 7,
+      "grep": 5,
+      "agent": 4,
+      "senduserfile": 4,
+      "workflow": 4,
+      "mcp__claude_preview__preview_console_logs": 2,
+      "mcp__claude_preview__preview_snapshot": 2,
+      "mcp__claude_preview__preview_stop": 1
+    },
+    "pair_transitions_top15": [
+      {
+        "pair": "bash -> bash",
+        "count": 1305
+      },
+      {
+        "pair": "edit -> edit",
+        "count": 644
+      },
+      {
+        "pair": "edit -> bash",
+        "count": 308
+      },
+      {
+        "pair": "bash -> edit",
+        "count": 292
+      },
+      {
+        "pair": "read -> read",
+        "count": 185
+      },
+      {
+        "pair": "write -> write",
+        "count": 182
+      },
+      {
+        "pair": "bash -> read",
+        "count": 152
+      },
+      {
+        "pair": "read -> bash",
+        "count": 146
+      },
+      {
+        "pair": "powershell -> powershell",
+        "count": 144
+      },
+      {
+        "pair": "write -> edit",
+        "count": 80
+      },
+      {
+        "pair": "bash -> write",
+        "count": 74
+      },
+      {
+        "pair": "write -> bash",
+        "count": 69
+      },
+      {
+        "pair": "read -> edit",
+        "count": 69
+      },
+      {
+        "pair": "edit -> write",
+        "count": 62
+      },
+      {
+        "pair": "edit -> read",
+        "count": 60
+      }
+    ],
+    "avg_cot_before_tool": {
+      "bash": 2623.66,
+      "read": 2649.14,
+      "write": 2916.24,
+      "edit": 2694.77,
+      "agent": 2930.5,
+      "toolsearch": 2626.42,
+      "taskcreate": 2749.96,
+      "taskupdate": 2879.95,
+      "webfetch": 2627.57,
+      "websearch": 2755.7,
+      "senduserfile": 2970.5,
+      "monitor": 3441.36,
+      "taskstop": 3861.22,
+      "schedulewakeup": 2616.07,
+      "workflow": 3216.75,
+      "skill": 2590.69,
+      "powershell": 2911.43,
+      "glob": 2158.65,
+      "mcp__claude_preview__preview_start": 2124.86,
+      "mcp__claude_preview__preview_console_logs": 2569,
+      "mcp__claude_preview__preview_screenshot": 2328.57,
+      "mcp__claude_preview__preview_eval": 2541.54,
+      "mcp__claude_preview__preview_snapshot": 2535.5,
+      "grep": 2415.6,
+      "mcp__claude_preview__preview_stop": 2663
+    }
+  },
+  "per_session_summary": {
+    "avg_turns_per_session": 77.75,
+    "median_turns_per_session": 38.0,
+    "avg_steps_per_turn_overall": 4.22,
+    "max_turns_session": 439,
+    "min_turns_session": 1
+  },
+  "pvi_combo_pct": 31.64,
+  "avi_combo_pct": 63.0
+}

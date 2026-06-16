@@ -1,0 +1,59 @@
+{
+  "name": "fable5-skills",
+  "version": "1.0.0",
+  "description": "AI reasoning skills distilled from 4,665 real Claude Fable 5 chain-of-thought traces. Mathematically tuned. Grade A 100% emulation accuracy against MiniMax M3.",
+  "type": "module",
+  "main": "bin/fable5-skills.js",
+  "bin": {
+    "fable5-skills": "bin/fable5-skills.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "data/",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node bin/fable5-skills.js doctor",
+    "prepublishOnly": "node bin/fable5-skills.js doctor"
+  },
+  "keywords": [
+    "ai",
+    "skills",
+    "claude",
+    "fable5",
+    "fable-5",
+    "anthropic",
+    "chain-of-thought",
+    "cot",
+    "prompt-engineering",
+    "agent-skills",
+    "llm",
+    "reasoning",
+    "minimax",
+    "coding-agent",
+    "claude-code",
+    "cursor",
+    "skill-md"
+  ],
+  "author": "Kuberwastaken + Fable 5 Skills Working Group",
+  "license": "MIT",
+  "homepage": "https://github.com/Kuberwastaken/fable5-skills",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuberwastaken/fable5-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kuberwastaken/fable5-skills/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

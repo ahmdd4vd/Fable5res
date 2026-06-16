@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp.*
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Test artifacts
+coverage/
+.nyc_output/
+test-output/
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+
+# Local npm packing
+*.tgz
+.npm/
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Local agent install dirs (when testing locally)
+.claude/
+.cursor/
+.cline/
+.windsurf/
+.continue/
+test-only/
