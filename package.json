@@ -1,6 +1,6 @@
 {
   "name": "fable5-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "AI reasoning skills distilled from 4,665 real Claude Fable 5 chain-of-thought traces. Mathematically tuned. Grade A 100% emulation accuracy against MiniMax M3.",
   "type": "module",
   "main": "bin/fable5-skills.js",
@@ -39,8 +39,14 @@
     "cursor",
     "skill-md"
   ],
-  "author": "Kuberwastaken + Fable 5 Skills Working Group",
-  "license": "MIT",
+  "author": "ahmdd4vd + Fable 5 Skills Working Group",
+  "license": "AGPL-3.0-only",
+  "licenses": [
+    {
+      "type": "AGPL-3.0-only",
+      "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+    }
+  ],
   "homepage": "https://github.com/ahmdd4vd/Fable5res",
   "repository": {
     "type": "git",
