@@ -41,13 +41,13 @@
   ],
   "author": "Kuberwastaken + Fable 5 Skills Working Group",
   "license": "MIT",
-  "homepage": "https://github.com/Kuberwastaken/fable5-skills",
+  "homepage": "https://github.com/ahmdd4vd/Fable5res",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kuberwastaken/fable5-skills.git"
+    "url": "git+https://github.com/ahmdd4vd/Fable5res.git"
   },
   "bugs": {
-    "url": "https://github.com/Kuberwastaken/fable5-skills/issues"
+    "url": "https://github.com/ahmdd4vd/Fable5res/issues"
   },
   "engines": {
     "node": ">=18.0.0"
